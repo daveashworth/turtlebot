@@ -1,0 +1,18 @@
+{
+  "name": "turtlebot",
+  "version": "1.0.0",
+  "description": "Bot for handling turtle alerts and trades (?)",
+  "main": "app.js",
+  "author": "Dave Ashworth",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "5.0.1",
+    "isomorphic-fetch": "2.2.1",
+    "lodash": "^4.17.5",
+    "telebot": "1.2.3",
+    "unsplash-js": "4.8.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
