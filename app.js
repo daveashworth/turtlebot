@@ -35,6 +35,7 @@ bot.on('text', function (msg) {
     "I can't even...",
     "I know...",
     "Probably so",
+    "YOU KNOW WHY!",
   ]);
   if (msg.text !== "/turtle") {
     bot.sendMessage(msg.chat.id, message);
